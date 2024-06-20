@@ -36,6 +36,7 @@ a {
 .wrapper {
   width: 1024px;
   display: flex;
+  margin: 0 8px;
 }
 
 .header,
@@ -64,7 +65,7 @@ button {
 /* ----------- */
 
 .header {
-  height: 64px;
+  min-height: 64px;
 }
 
 .logo {
@@ -91,7 +92,7 @@ ul {
 /* ----------- */
 
 .hero {
-  height: 470px;
+  min-height: 470px;
   display: flex;
   align-items: center;
 }
@@ -101,7 +102,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 240px;
+  min-height: 240px;
   margin-bottom: 48px;
 }
 
@@ -121,6 +122,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 8px;
 }
 
 .subtext {
@@ -136,7 +138,7 @@ ul {
 /* ----------- */
 
 .grid-container {
-  height: 500px;
+  min-height: 500px;
 }
 
 .information {
@@ -174,7 +176,7 @@ ul {
 }
 
 .grid p {
-  margin-top: 8px;
+  margin: 8px 0;
   text-align: center;
   width: 168px;
 }
