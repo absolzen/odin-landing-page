@@ -32,12 +32,23 @@ a {
   color: #F9FAF8;
 }
 
+.wrapper {
+  width: 1100px;
+  border: 3px dashed fuchsia;
+}
+
 /* ----------- */
 /* Header styles */
 /* ----------- */
 
 .subtext {
   color: #E5E7EB;
+}
+
+.header {
+  
+  display: flex;
+
 }
 
 

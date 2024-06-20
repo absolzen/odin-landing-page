@@ -10,63 +10,71 @@
 
 <body>
   <header class="header">
-    <div class="logo">
-      Header logo
+    <div class="wrapper">
+      <div class="logo">
+        Header logo
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Header link one</a></li>
+          <li><a href="#">Header link two</a></li>
+          <li><a href="#">Header link three</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Header link one</a></li>
-        <li><a href="#">Header link two</a></li>
-        <li><a href="#">Header link three</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main class="main">
     <div class="hero">
-      <div class="container">
-        <h1>This website is awesome</h1>
-        <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button>Sign up</button>
-      </div>
-      <div class="image">
-        <p class="placeholder">This is a placeholder for an image</p>
+      <div class="wrapper">
+        <div class="container">
+          <h1>This website is awesome</h1>
+          <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button>Sign up</button>
+        </div>
+        <div class="image">
+          <p class="placeholder">This is a placeholder for an image</p>
+        </div>
       </div>
     </div>
 
     <div class="grid-container">
-      <h2>Some random information</h2>
-      <div class="grid">
-        <div class="item">
-          <div class="image-placeholder"></div>
-          <p>this is some subtext under an illustration or image</p> 
-        </div>
-        <div class="item">
-          <div class="image-placeholder"></div>
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="item">
-          <div class="image-placeholder"></div>
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="item">
-          <div class="image-placeholder"></div>
-          <p>this is some subtext under an illustration or image</p>
+      <div class="wrapper">
+        <h2>Some random information</h2>
+        <div class="grid">
+          <div class="item">
+            <div class="image-placeholder"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="item">
+            <div class="image-placeholder"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="item">
+            <div class="image-placeholder"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="item">
+            <div class="image-placeholder"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="quote">
-      <blockquote>
-        <p>Tell me and I forget. Teach me and I remember. Involve me and I learn.</p>
-        <footer class="thor">—Benjamin Franklin</footer>
-      </blockquote>
+      <div class="wrapper">
+        <blockquote>
+          <p>Tell me and I forget. Teach me and I remember. Involve me and I learn.</p>
+          <footer class="thor">—Benjamin Franklin</footer>
+        </blockquote>
+      </div>
     </div>
     
     <div class="call">
-      <div class="container">
+      <div class="wrapper">
         <div class="frame">
-          <div class="call-container">
+          <div class="container">
             <h3>Call to action! It's time!</h3>
             <p class="subtext">Sign up for our product by clicking that button over there!</p>
           </div>
@@ -77,7 +85,7 @@
   </main>
 
   <footer class="footer">
-    Copyright &copy; Robert Müller
+    <div class="wrapper">Copyright &copy; Robert Müller</div>
   </footer>
 </body>
 </html>
