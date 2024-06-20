@@ -11,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #1F2937;
   background: #F9FAF8;
 }
@@ -39,11 +39,13 @@ a {
 }
 
 button {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   background: #3882F6;
   color: #F9FAF8;
   border-radius: 6px;
+  padding: 8px 36px;
+  border: 2px solid #3882F6;
 }
 
 /* ----------- */
@@ -80,6 +82,15 @@ ul {
 
 .hero {
   height: 470px;
+  display: flex;
+  align-items: center;
+}
+
+.hero .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 240px;
 }
 
 .main-text {
@@ -87,12 +98,25 @@ ul {
   font-weight: 900;
 }
 
+.hero .container {
+  flex: 1;
+}
+
 .hero .image {
   background: #6D747C;
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subtext {
   color: #E5E7EB;
+}
+
+.hero button {
+  margin-top: 14px;
 }
 
 /* ----------- */
