@@ -15,3 +15,83 @@ body {
   color: #1F2937;
   background: #F9FAF8;
 }
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+/* ----------- */
+/* General */
+/* ----------- */
+
+.header,
+.hero,
+.footer {
+  background: #1F2937;
+  color: #F9FAF8;
+}
+
+/* ----------- */
+/* Header styles */
+/* ----------- */
+
+.subtext {
+  color: #E5E7EB;
+}
+
+
+/* ----------- */
+/* Hero styles */
+/* ----------- */
+
+.hero .image {
+  background: #6D747C;
+}
+
+.hero button {
+  background: #3882F6;
+  color: #F9FAF8;
+}
+
+/* ----------- */
+/* Grid styles */
+/* ----------- */
+
+.image-placeholder {
+  border: 3px solid #3882F6;
+  border-radius: 16px;
+  width: 120px;
+  height: 120px;
+}
+
+/* ----------- */
+/* Quote styles */
+/* ----------- */
+
+.quote {
+  background: #E5E7EB;
+  color: #1F2937;
+}
+
+
+
+/* ----------- */
+/* Call to action styles */
+/* ----------- */
+
+.frame {
+  background: #3882F6;
+  color: #F9FAF8;
+}
+
+.call button {
+  background: #3882F6;
+  color: #F9FAF8;
+}
+
+/* ----------- */
+/* Footer styles */
+/* ----------- */
+
+
