@@ -264,6 +264,8 @@ ul {
 /* Footer styles */
 /* ----------- */
 
-.footer {
+.footer .wrapper {
   height: 100px;
+  justify-content: center;
+  align-items: center;
 }
