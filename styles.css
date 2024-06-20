@@ -34,8 +34,7 @@ a {
 }
 
 .wrapper {
-  width: 1100px;
-  border: 3px dashed fuchsia;
+  width: 1024px;
   margin: 0 auto;
 }
 
@@ -50,6 +49,12 @@ button {
 /* ----------- */
 /* Header styles */
 /* ----------- */
+
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-size: 24px;
@@ -66,13 +71,16 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
 }
 
 
 /* ----------- */
 /* Hero styles */
 /* ----------- */
+
+.hero {
+  height: 470px;
+}
 
 .main-text {
   font-size: 48px;
@@ -90,6 +98,10 @@ ul {
 /* ----------- */
 /* Grid styles */
 /* ----------- */
+
+.grid-container {
+  height: 500px;
+}
 
 .information {
   font-size: 36px;
@@ -110,6 +122,7 @@ ul {
 .quote {
   background: #E5E7EB;
   color: #1F2937;
+  height: 430px;
 }
 
 .quote-text {
@@ -126,6 +139,10 @@ ul {
 /* ----------- */
 /* Call to action styles */
 /* ----------- */
+
+.call {
+  height: 350px;
+}
 
 .frame {
   background: #3882F6;
@@ -146,4 +163,6 @@ ul {
 /* Footer styles */
 /* ----------- */
 
-
+.footer {
+  height: 100px;
+}
