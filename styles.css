@@ -188,7 +188,7 @@ ul {
 .quote {
   background: #E5E7EB;
   color: #1F2937;
-  height: 430px;
+  min-height: 430px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +202,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 24px;
+  margin: 8px 24px;
 }
 
 .quote-text {
@@ -226,21 +226,26 @@ ul {
   height: 350px;
 }
 
+.call .wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
 .frame {
   background: #3882F6;
   color: #F9FAF8;
   margin: 8px;
-  height: 150px;
+  min-height: 150px;
   width: 100%;
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.call .wrapper {
-  justify-content: center;
-  align-items: center;
+.call .container {
+  margin: 8px;
 }
 
 .call-heading {
@@ -252,6 +257,7 @@ ul {
   background: #3882F6;
   color: #F9FAF8;
   border-color: #F9FAF8;
+  margin: 8px;
 }
 
 /* ----------- */
