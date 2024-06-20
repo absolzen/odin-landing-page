@@ -167,12 +167,13 @@ ul {
   background: #E5E7EB;
   color: #1F2937;
   height: 430px;
-}
-
-.quote .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.quote .wrapper {
+  
 }
 
 .quote-text {
