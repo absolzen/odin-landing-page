@@ -51,12 +51,12 @@ a {
 
 
 button {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   background: #3882F6;
   color: #F9FAF8;
-  border-radius: 6px;
-  padding: 8px 36px;
+  border-radius: 8px;
+  padding: 6px 32px;
   border: 2px solid #3882F6;
 }
 
@@ -229,6 +229,18 @@ ul {
 .frame {
   background: #3882F6;
   color: #F9FAF8;
+  margin: 8px;
+  height: 150px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call .wrapper {
+  justify-content: center;
+  align-items: center;
 }
 
 .call-heading {
@@ -239,6 +251,7 @@ ul {
 .call button {
   background: #3882F6;
   color: #F9FAF8;
+  border-color: #F9FAF8;
 }
 
 /* ----------- */
