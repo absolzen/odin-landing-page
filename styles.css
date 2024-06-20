@@ -39,11 +39,6 @@ a {
   margin: 0 auto;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-}
-
 button {
   font-size: 18px;
   font-weight: 700;
@@ -61,10 +56,17 @@ button {
   font-weight: 900;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 
 .header .wrapper {
   display: flex;
-  
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
 
